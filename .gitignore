@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Generated data tables (reproducible via `make`)
+code/data/processed/*.parquet
+
+# LaTeX build artefacts
+*.aux
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.log
+*.nav
+*.snm
+*.vrb
+
+# Superseded planning artefacts (kept locally, not tracked)
+GFRP-CNT_Self-Sensing_Action_Plan.pptx
+Project Report AE22B048.pdf
+
+# Personal study material (kept locally, not tracked)
+Concepts_Study_Guide.tex
+Concepts_Study_Guide.pdf
+
+# Report/presentation build sources and assets (only the finished PDFs/PPTX are tracked)
+final_report/*.tex
+final_report/build_slides.js
+final_report/figures/
+final_report/repfig_response.png
+final_report/repfig_analysis.png
+final_report/iitm_logo.png
